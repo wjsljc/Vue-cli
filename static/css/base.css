@@ -1,0 +1,27 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { 
+	margin:0; padding:0; 
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 12px;font-weight: normal;
+}
+html,body{
+	height:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;color: #666666;font-size: 16px!important;font-family: "microsoft yahei";
+}
+ul,li{
+	list-style: none;
+}
+img{
+	display: block;border: 0;
+}
+a{
+	text-decoration: none;color: black;
+}
+input { 
+	resize: none; outline: none; font-family: Arial; word-wrap: break-word; margin: 0;padding: 0;
+}
+table{
+	border-collapse:collapse;border-spacing:0;
+}
+em,i{
+	font-style:normal;
+}

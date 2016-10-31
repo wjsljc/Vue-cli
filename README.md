@@ -1,2 +1,27 @@
-# Vue-cli
-This is a simple Vue scaffolding based on the production of mobile terminal single page display page, the use of Vue scaffolding to build, is conducive to learning the use of Vue scaffolding.
+# football
+
+> 1604
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

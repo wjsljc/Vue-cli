@@ -1,0 +1,133 @@
+header{
+	display: block;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10.4375rem;
+}
+header .h_button{
+	overflow: hidden;
+	width: 100%;
+	height: 2.8125rem;
+	background-color: #0DC441;
+}
+header .h_button .h_buttonIn{
+	width: 7.5rem;
+	height: 1.5625rem;
+	line-height: 1.5625rem;
+	margin: 0.625rem auto;
+}
+header .h_button .h_buttonIn > div{
+	width: 50%;
+	font-size: 0.9rem;
+	text-align: center;
+	color: #A3E9B7;
+	background-color: rgba(61,208,103,.8);
+}
+header .h_button .h_buttonIn > div:nth-of-type(1){
+	border-radius: 15px 0 0 15px;
+}
+header .h_button .h_buttonIn > div:nth-of-type(2){
+	border-radius: 0 15px 15px 0;
+}
+header .h_button .h_buttonIn .active{
+	color: white;
+	background-color: rgba(100,230,135,.8);
+}
+header .h_list{
+	width: 100%;
+	height: 2.25rem;
+	background-color: white;
+}
+header .h_list li{
+	position:relative;
+	width: 33.3333333%;
+	line-height: 2.25rem;
+	text-align: center;
+}
+header .h_list li a{
+	font-size: 1rem;
+	color: #666666;
+}
+header .h_list li a.active{
+	color: #0DC441;
+}
+header .h_list li span.active{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #0DC441;
+}
+header .f_box{
+	width: 100%;
+}
+header .f_box .f_boxTtile{
+	position:relative;
+	height: 3.125rem;
+	padding: 0.75rem;
+	background-color: white;
+}
+header .f_box .f_boxTitleImg{
+	width: 3.125rem;
+	height: 3.125rem;
+}
+header .f_box .f_boxTitleImg img{
+	width: 100%;
+	border: 1px solid #B4B4B4;
+	border-radius: 100%;
+}
+header .f_box .f_boxTtile dl{
+	margin-left: 0.625rem;
+}
+header .f_box .f_boxTtile dl dt{
+	line-height: 1.5rem;
+	font-size: 1rem;
+	color: #000000;
+}
+header .f_box .f_boxTtile dl dd{
+	line-height: 1.5rem;
+	font-size: 0.9rem;
+	color: #999999;
+}
+.main{
+	overflow: hidden;
+	position: absolute;
+	top: 9.8rem;
+	left: 0;
+	bottom: 2.8125rem;
+	width: 100%;
+}
+.main .swiper-container{
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	bottom: 2.8125rem;
+	width: 100%;
+	height: 100%;
+}
+.main .xc_box{
+	width: 49%;
+	margin-bottom: 0.3125rem;
+	background-clip: border-box;
+}
+.main .xc_box:nth-of-type(2n+1){
+	margin-right: 2%;
+}
+.main .xc_box img{
+	width: 100%;
+	border: 1px solid #E5E5E5;
+	background-clip: border-box;
+}
+.main .xc_box .xc_title{
+	width: 100%;
+	border: 1px solid #E5E5E5;
+	border-top: 0;
+	background-clip: border-box;
+	text-align: center;
+}
+

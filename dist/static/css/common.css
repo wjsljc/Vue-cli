@@ -1,0 +1,153 @@
+/*通用功能*/
+.clearfix:after{
+	content: "";
+	display: none;
+	height: 0;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.overflowh{
+	overflow: hidden;
+}
+.hidden{
+	display: none;
+}
+/*主体部分*/
+.C_wrap{
+	width: 100%;
+}
+
+/*头部*/
+header{
+	overflow: hidden;
+    display: block;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 2.8125rem;
+}
+header .h_title{
+	width: 100%;
+	height: 2.8125rem;
+	line-height: 2.8125rem;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	background-color: #0DC441;
+}
+.form_in{
+	overflow: hidden;
+	width: 90.625%;
+	margin: 0 auto;
+}
+.main{
+	/*overflow: hidden;*/
+	position: absolute;
+	top: 2.3rem;
+	left: 0;
+	bottom: 2.8125rem;
+	width: 100%;
+}
+/*.main .iScrollIndicator{
+	opacity: 0;
+}*/
+.main .form_in .input_row{
+	width: 100%;
+	/*height: 2.5rem;*/
+	line-height: 2.5rem;
+	margin-top: 1rem;
+	border-bottom: 1px solid #7F7F7F;
+}
+.main .form_in .input_row input{
+	width: 90%;
+	line-height: 1.5rem;
+	border: 0;
+	color: #CACACA;
+	font-size: 0.8rem;
+	padding-left: 5px;
+}
+.main .form_in p{
+	margin: 1.5625rem 0;
+	color: #999999;
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+}
+.main .form_in p a{
+	color: #A3E9B7;
+	padding-left: 2px;
+	text-decoration: underline;
+}
+.main .form_in button{
+	width: 100%;
+	height: 2.8125rem;
+	border: 0;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: 10px;
+	color: white;
+	background-color: #0DC441;
+}
+.mtop{
+	margin-top: 2.5rem;
+}
+
+footer{
+	display: -webkit-box;
+    display: -moz-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2.8125rem;
+}
+footer > div{
+	position: relative;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    height: 2.5625rem;
+    padding-top: 0.25rem;
+    text-align: center;
+    color: white;
+}
+footer > div p a,footer > div a i{
+	color: #D6D6D6;
+}
+footer > div a i{
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+footer > div p a{
+	font-size: 0.8rem;
+}
+footer > div p a.active,footer > div a i.active{
+	color: #0DC441;
+}
+footer > div .icenter{
+	display: inline-block;
+	position: absolute;
+	z-index: 9999999;
+	top: -0.5rem;
+	left: 0;
+	width: 3rem;
+	height: 3rem;
+	line-height: 3.8rem;
+	border: 1px solid #D6D6D6;
+	border-radius: 100%;
+	background-color: white;
+	text-align: center;
+}
+footer > div .icenter i{
+	font-size: 2rem;
+}

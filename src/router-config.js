@@ -1,0 +1,35 @@
+module.exports=function(router){
+    router.map({
+    	'/login':{
+    		component:require('./components/login.vue')
+    	},
+    	'/register':{
+    		component:require("./components/register.vue")
+    	},
+    	"/index":{
+			component:require("./components/html/index.vue"),
+			subRoutes:{
+				"/inmain":{
+					component:require("./components/html/inmain.vue"),
+					subRoutes :{
+						"/hot":{
+							component:require("./components/html/hot.vue")
+						},
+						"/focus":{
+							component:require("./components/html/focus.vue")
+						}
+					}
+				},
+				"/find":{
+					component:require("./components/html/find.vue"),
+				},
+				"/mine":{
+					component:require("./components/html/mine.vue"),
+				}
+			}
+		}
+    })
+    router.redirect({
+	    '*':'/login'
+	})
+}
